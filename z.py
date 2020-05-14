@@ -1,5 +1,4 @@
-﻿#!/opt/python3.5
-#coding=utf-8
+﻿#coding=utf-8
 import sys,re,time,os
 maxdata = 858993459200 
 memfilename = '/root/newnetcardtransdata.txt'
