@@ -1,4 +1,5 @@
-﻿#!/usr/bin/python3
+﻿#!/usr/bin/python
+#!/usr/bin/env python
 #coding=utf-8
 import sys,re,time,os
 maxdata = 858993459200 #流量上限，包括流入和流出，单位Byte
