@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python
+﻿#!/usr/bin/python3
 #coding=utf-8
 import sys,re,time,os
 maxdata = 858993459200 
@@ -40,7 +40,7 @@ def net_loop():
         time.sleep(3)
         nowtime = time.strftime('%d %H:%M',time.localtime(time.time()))
         sec = time.localtime().tm_sec
-        if nowtime == '12 00:00': 
+        if nowtime == '01 00:00': 
             if sec < 10:
                 totaltrans = 0
         (new_recv, new_send) = get_net_data()
