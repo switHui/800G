@@ -1,4 +1,4 @@
-﻿#!/opt/python3.5/bin/python3.5
+﻿#!/opt/python3.5
 #coding=utf-8
 import sys,re,time,os
 maxdata = 858993459200 
